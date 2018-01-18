@@ -1,10 +1,10 @@
-body {
+main {
+    background-color: white;
+}
+.container {
     margin: 60px auto;
     width: 70%;
     background-color: #353535;
-}
-.container {
-    background-color: white;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
