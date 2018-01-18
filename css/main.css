@@ -12,9 +12,15 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav ul li {
+    font-size: 2em;
+}
+footer ul li {
+    font-size: 1.5em;
+}
 a {
     text-decoration: none;
-    color: #999;
+    color: #aa6ab7;
 }
 a:hover {
     text-decoration: underline;
