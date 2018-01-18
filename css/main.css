@@ -1,62 +1,58 @@
 body {
-    background-color: #353535;
+	background-color: #353535;
 }
 main{
-    background-color: white;
+	background-color: white;
 }	
 .content{
 	margin: 20px auto;
-    width: 70%;
+	width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
 	width: 100%;
 }
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-	
+	display: inline;
+	margin-right: 20px;
 	width: 100%;
 }
-nav ul li {
-    font-size: 2em;
-}
-footer ul li {
-    font-size: 1.5em;
-}
 a {
-    text-decoration: none;
-    color: #117591;
+	text-decoration: none;
+	color: #117591;
 }
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 3em;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 2em;
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	border-top: 1px solid #117591;
+	font-size: 1.5em;
 }
-
+nav{
+	border-bottom: 1px solid #117591;
+	font-size: 2em;
+}
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+	margin: 20px auto 40px; 
+	font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+	list-style: none;
 }
