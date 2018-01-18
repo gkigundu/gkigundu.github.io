@@ -1,20 +1,25 @@
-main {
-    background-color: white;
-}
-.container {
-    margin: 60px auto;
-    width: 70%;
+body {
     background-color: #353535;
+}
+main{
+    background-color: white;
+}	
+.content{
+	margin: 20px auto;
+    width: 70%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+	width: 100%;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+	
+	width: 100%;
 }
 nav ul li {
     font-size: 2em;
@@ -24,7 +29,7 @@ footer ul li {
 }
 a {
     text-decoration: none;
-    color: #aa6ab7;
+    color: #117591;
 }
 a:hover {
     text-decoration: underline;
